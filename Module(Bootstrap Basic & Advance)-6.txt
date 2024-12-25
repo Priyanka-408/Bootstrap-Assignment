@@ -1,0 +1,15 @@
+                                                                          
+                                                                       Module (Bootstrap Basic & Advanced) – 6 
+
+Q1=> What are the advantages of Bootstrap? 
+Ans-> Advantages of bootstrap are:
+      i>Responsive Website
+      ii>Customization
+      iii>predefined Elements
+      iv>Easy to use
+      v>Consistency
+
+Q2=>
+                     
+
+
