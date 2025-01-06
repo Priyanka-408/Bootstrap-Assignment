@@ -9,7 +9,82 @@ Ans-> Advantages of bootstrap are:
       iv>Easy to use
       v>Consistency
 
-Q2=>
+Q2=>What is a Bootstrap Container, and how does it work? 
+Ans->Containers are the most basic layout element in Bootstrap and are required when using our default grid system. Containers are used to contain, padding, and center the content within them. 
                      
+      <div class="container">
+                 <!-- Content here -->
+      </div>
+
+Q3=>What are the default Bootstrap text settings?  
+Ans->Default Bootstrap text setting are:-
+          -Font size
+         -Font Family
+        
+
+Q4=>What do you know about the Bootstrap Grid System? 
+Ans->Bootstrap Grid System is the  feature of bootstrap framework that uses containers, rows, and columns to organize content on a web page.
+
+Bootstrap Grid System contain 12 column layout and it is fully responsive  for every device.
+
+
+Q5=>What is the difference between Bootstrap 4 and Bootstrap 5 
+Ans-> Bootstrap 4:
+            i>Bootstrap 4 has 5 tire (xs,ms,md,l,xl)
+           ii>It has Limited color.
+          iii>We cannot modify utilities in bootstrap 4
+         iv>It does not support Offcanvas component.
+         v>Bootstrap 4 supports both IE 10 and 11.
+
+    Bootstrap 5:
+       i>It has 6 tire (xs,m,m,lg,xl,xxl).
+      ii>Extra color added with the looks.
+     iii>Bootstrap 5 give freedom to modify and also create our own utility.
+    iv>It supports Offcanvas components.
+    v>Bootstrap 5 doesn't support IE 10 and 11.
+
+Q6=>What is a Button Group, and what is the class for a basic Button Group?  
+Ans->Button Group is basically a collection of buttons that are group together in a series, either horizontally or vertically, using the bootstrap class that is btn-group.
+    syntax:
+      <div class="btn-group"><button></button></div>
+
+Q7=>How can you use Bootstrap to make thumbnails?  
+Ans->Thumbnails that are used to show linked images in grids with the pre-defined classes which help to reduce codes length.
+thumbnail is created using class .thumbnail within the element <a>.
+
+Q8=>In Bootstrap 4, what is flexbox? 
+Ans->It is a flex box ,which control the layout and alignment specification of bootstrap components.
+            Flex box help to make easier responsive layout structure without using the float property.
+
+
+Q9=>How can one create an alert in Bootstrap? 
+Ans->We can create alert in the bootstrap using the class .alert. It provide the feedback  message to the user.
+
+Q10=>What is a bootstrap card and how would you create one? 
+Ans->A card is a flexible and extensible content container with multiple various option such as: padding ,border, button, heading etc.
+
+We can create the card by copying the code from the bootstrap , but first we link the bootstrap file in the HTML document and then paste the code.
+     The code is:
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
 
 
