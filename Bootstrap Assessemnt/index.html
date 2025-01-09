@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/jquery.magnific-popup.min.js"
+      integrity="sha512-fCRpXk4VumjVNtE0j+OyOqzPxF1eZwacU3kN3SsznRPWHgMTSSo7INc8aY03KQDBWztuMo5KjKzCFXI/a5rVYQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.min.css"
+      integrity="sha512-lvaVbvmbHhG8cmfivxLRhemYlTT60Ly9Cc35USrpi8/m+Lf/f/T8x9kEIQq47cRj1VQIFuxTxxCcvqiQeQSHjQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- lightbox gallery start -->
+    <div class="lightbox-gallery">
+      <!-- container start  -->
+      <div class="container">
+        <!-- intro start -->
+        <div class="intro">
+          <h2 class="text-center">Lightbox Gallery</h2>
+          <p class="text-center my-auto pb-4">
+            Find the lightbox gallery for your project. click on any image to
+            open gallary
+          </p>
+        </div>
+        <!-- intro end -->
+
+        <!-- row start -->
+        <div class="row gallerys">
+          <div class="col-sm-6 col-md-5 col-lg-3 item">
+            <a href="../Bootstrap Assessemnt/IMAGES/image-1.jpg" data-lightbox="photos">
+            <img
+              class="img-fluid"
+              src="../Bootstrap Assessemnt/IMAGES/image-1.jpg"
+            />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a
+              href="../Bootstrap Assessemnt/IMAGES/image-2.jpg"
+              data-lightbox="photos"
+            >
+              <img
+                class="img-fluid"
+                src="../Bootstrap Assessemnt/IMAGES/image-2.jpg"
+              />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 item">
+            <a
+              href="../Bootstrap Assessemnt/IMAGES/image-3.jpg"
+              data-lightbox="photos"
+            >
+              <img
+                class="img-fluid"
+                src="../Bootstrap Assessemnt/IMAGES/image-3.jpg"
+              />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 item mt-3">
+            <a
+              href="../Bootstrap Assessemnt/IMAGES/image-4.webp"
+              data-lightbox="photos"
+            >
+              <img
+                class="img-fluid"
+                src="../Bootstrap Assessemnt/IMAGES/image-4.webp"
+              />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 item mt-3">
+            <a
+              href="../Bootstrap Assessemnt/IMAGES/image-5.webp"
+              data-lightbox="photos"
+            >
+              <img
+                class="img-fluid"
+                src="../Bootstrap Assessemnt/IMAGES/image-5.webp"
+              />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 item mt-3">
+            <a
+              href="../Bootstrap Assessemnt/IMAGES/image-6.jpg"
+              data-lightbox="photos"
+            >
+              <img
+                class="img-fluid"
+                src="../Bootstrap Assessemnt/IMAGES/image-6.jpg"
+              />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 item mt-3">
+            <a
+              href="../Bootstrap Assessemnt/IMAGES/image-7.webp"
+              data-lightbox="photos"
+            >
+              <img
+                class="img-fluid"
+                src="../Bootstrap Assessemnt/IMAGES/image-7.webp"
+              />
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-md-4 col-lg-3 item mt-3">
+            <a
+              href="../Bootstrap Assessemnt/IMAGES/image-8.jpg"
+              data-lightbox="photos"
+            >
+              <img
+                class="img-fluid"
+                src="../Bootstrap Assessemnt/IMAGES/image-8.jpg"
+              />
+            </a>
+          </div>
+        </div>
+
+        <!-- row end -->
+      </div>
+      <!-- container end -->
+    </div>
+    <!-- lightbox gallery end -->
+
+   <script>
+    $(document).ready(function(){
+      $('.gallerys').magnificPopup({
+        type:'image',
+        delegate: 'a',
+        gallery : {
+          enabled :true
+        }
+
+      });
+
+    });
+   </script>
+
+  </body>
+</html>
